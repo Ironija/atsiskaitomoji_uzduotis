@@ -1,0 +1,279 @@
+/*Pradžia*/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Bendri - plačiąja prasme - nustatymai*/
+
+.container{
+	text-align: center;
+    font-family: 'Titillium Web', 'Exo 2', 'Cairo', sans-serif;
+    padding: 5rem;
+}
+
+hr{
+	margin-right: auto;
+	margin-left: auto;
+	width: 50px;
+	border: 3px solid;
+}
+
+.btn-secondary{
+	padding-right: 3rem;
+	padding-left: 3rem;
+	margin-top: 3rem;
+}
+
+h5{
+	font-size: 1.15rem;
+	font-weight: 600;
+}
+
+body{
+	position: relative;
+}
+
+/*Keliems elementams taikoma ta pati savybė*/
+.nav, button, h2, h5, .container:nth-of-type(4) .card-text, .container:nth-of-type(5) .card-text{
+	text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link, .btn-default, .container:nth-of-type(2), .container:nth-of-type(6), .container:nth-of-type(7){
+	color: #fff;
+}
+
+.container:nth-of-type(4), .container:nth-of-type(4) .card{
+	background-color: #fff;
+}
+
+.btn-secondary, .container:nth-of-type(2) .card, .container:nth-of-type(3) .card, .container:nth-of-type(4) .card, .container:nth-of-type(5) .card, .container:nth-of-type(5) .btn, .container:nth-of-type(6) .card, .form-control, .container:nth-of-type(7) .btn{
+	border: none;
+}
+
+h1, h2{
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+ 
+h1, footer .col-sm-12{
+ display: table-cell;
+ vertical-align;
+}
+/*Pirmas konteineris*/
+
+.container:nth-of-type(1){
+	background-color: #87509c;
+	color: #f7f3ea;
+}
+
+.navbar-brand{
+	margin-left: 2rem;
+}
+
+.nav li{
+	margin: 1rem;
+}
+
+.active{
+	background-color: #643a79;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #c55725;
+}
+
+.container:nth-of-type(1) .btn-secondary{
+	background-color: #eb7d4b;
+	border-bottom: 3px solid #c55725;
+}
+
+/*Antras konteineris*/
+
+.container:nth-of-type(2){
+	background-color: #17c2a4;
+}
+
+.container:nth-of-type(2) hr{
+	border-color: #14a58c;
+}
+
+.container:nth-of-type(2) .card{
+	background-color: #17c2a4;
+}
+
+.container:nth-of-type(2) img{
+	padding: 2rem;
+}
+
+.container:nth-of-type(2) .card-img-top {
+    height: 12rem;
+}
+
+/*Trečias konteineris*/
+
+.container:nth-of-type(3){
+	background-color: #e7f1f8;
+	color: #3c4761;
+}
+
+.container:nth-of-type(3) hr{
+	border-color: #c8d9e5;
+}
+
+.text-muted{
+	color: #30bae7 !important; /*iš „Bootstrap“ !important neleido keisti spalvos*/
+}
+
+.container:nth-of-type(3) ul li{
+	display: inline-block;
+}
+
+.container:nth-of-type(3) .card{
+	background-color: #e7f1f8;
+}
+
+.card-img-overlay{
+	position: absolute;
+	left:18%;
+	bottom: 20%;
+	font-size: 3rem;
+}
+
+/*Ketvirtas konteineris*/
+
+.container:nth-of-type(4){
+	color: #3c4761;
+}
+
+.container:nth-of-type(4) hr{
+	border-color: #dfe8ed;
+}
+
+.container:nth-of-type(4) .row p:first-child{
+	font-weight: 600;
+}
+
+.flex-wrap button{
+	margin: 5px;
+}
+
+/*Penktas konteineris*/
+
+.container:nth-of-type(5){
+	background-color:#ffdd99;
+	color: #393939;
+}
+
+.btn-light{
+	background-color: #fff;
+
+}
+
+.btn-dark{
+	background-color: #000;
+	color: #312d24;
+}
+
+.btn-group{
+	padding: 2rem;
+}
+
+.container:nth-of-type(5) .card{
+	background-color: #ffdd99;
+}
+
+.container:nth-of-type(5) hr{
+	border-color: #e5c37f;
+}
+
+.container:nth-of-type(5) .btn-secondary{
+	background-color: #17c2a4;
+	border-bottom: 3px solid #009c7e;
+}
+
+/*Šeštas konteineris*/
+
+.container:nth-of-type(6){
+	background-color: #d74680;
+}
+
+.container:nth-of-type(6) .card{
+	background-color: #d74680;
+}
+
+.container:nth-of-type(6) .card-body p:nth-of-type(2){
+	color: #ffdd99;
+}
+
+.container:nth-of-type(6) hr{
+	border-color: #b73c6d;
+}
+
+/*Septintas konteineris*/
+
+.container:nth-of-type(7){
+	background-color: #3c5499;
+}
+
+.container:nth-of-type(7) hr{
+	border-color: #273a71;
+}
+
+textarea{
+	margin-top: 1rem;
+}
+
+.form-control{
+	background-color: #273a71;
+}
+
+.form-control::-webkit-input-placeholder{
+	color: #fff;
+}
+
+.form-control::-moz-placeholder{
+	color: #fff;
+}
+
+.form-control:-moz-placeholder{
+	color: #fff;
+}
+
+.form-control::-ms-input-placeholder{
+	color: #fff;
+}
+
+.container:nth-of-type(7) .btn-secondary{
+	background-color: #30bae7;
+	border-bottom: 3px solid #0a94c1;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+}
+
+footer{
+	background-color: #344b8e;
+	font-size: 1.25rem;
+	font-weight: 600;
+	position: absolute;
+	bottom: 0;
+	max-width: 100%;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 1rem;
+}
+
+footer li:nth-of-type(2){
+	color: #30bae7;
+}
+
+@media (max-width: 767px) {
+	.card-deck .card 
+	{ -webkit-box-flex: auto; -ms-flex: auto; flex: auto; margin-bottom: 15px;
+		}
+	}
